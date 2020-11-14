@@ -1,0 +1,13 @@
+.result {
+  height: 140px;
+  box-shadow: inset 0px -5px 17px -5px rgba(0, 0, 0, 0.11);
+
+  &__uotput {
+    font-size: 85px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 38px;
+    padding-left: 38px;
+  }
+}

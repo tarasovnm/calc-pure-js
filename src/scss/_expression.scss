@@ -1,0 +1,14 @@
+.expression {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+
+  &__output {
+    padding: 38px 38px 5px 38px;
+
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: $expression-color;
+    text-align: right;
+  }
+}

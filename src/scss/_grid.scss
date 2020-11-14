@@ -1,0 +1,66 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $buttons-color;
+
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 108px;
+    border-right: 1px solid $border-dark-color;
+    border-bottom: 1px solid $border-dark-color;
+
+    transition: all 0.5s ease 0s;
+
+    &.active,
+    &:active {
+      color: $equal-color;
+    }
+
+    &:hover {
+      background: $operator-color;
+      cursor: pointer;
+    }
+
+    &__text {
+      font-size: 28px;
+      text-align: center;
+    }
+
+    &--equal {
+      width: 50%;
+      background-color: $equal-color;
+      border: none;
+
+      p {
+        font-size: 50px;
+        color: #ffffff;
+      }
+    }
+
+    &--equal:hover {
+      background-color: $expression-color;
+    }
+
+    &--equal.active,
+    &--equal:active {
+      p {
+        color: black;
+      }
+    }
+
+    &--op {
+      background-color: $operator-color;
+
+      p {
+        font-size: 36px;
+      }
+    }
+
+    &--op:hover {
+      background-color: $expression-color;
+    }
+  }
+}
