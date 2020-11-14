@@ -1,0 +1,11 @@
+.calc {
+  display: flex;
+  flex-direction: column;
+  height: 940px;
+  width: 436px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: $calc-color;
+  box-shadow: 0px 0px 60px 40px rgba(0, 0, 0, 0.1);
+}
