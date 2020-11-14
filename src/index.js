@@ -4,7 +4,7 @@ class Person {
   name = 'Ivan';
 }
 
-let pers = new Person();
+const pers = new Person();
 
 
-console.log('working!!!', pers.name);
+console.log('working!', pers.name);
