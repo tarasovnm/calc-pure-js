@@ -1,6 +1,6 @@
-import {CalcComponent} from '@core/CalcComponent';
+import {DomComponent} from '@core/DomComponent';
 
-export class Expression extends CalcComponent {
+export class Expression extends DomComponent {
   static className = 'expression';
 
   toHTML() {

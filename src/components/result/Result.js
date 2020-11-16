@@ -1,6 +1,6 @@
-import {CalcComponent} from '@core/CalcComponent';
+import {DomComponent} from '@core/DomComponent';
 
-export class Result extends CalcComponent {
+export class Result extends DomComponent {
   static className = 'result';
 
   toHTML() {
